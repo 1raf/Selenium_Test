@@ -12,7 +12,7 @@ public class InTheatersPage extends BaseClassPage {
 	@FindBy(id = "navTitleMenu")
 	private WebElement navMenu;
 
-	@FindBy(xpath = "//div[@class='subNavListContainer']//a[contains(text(), \"In Thea\")]")
+	@FindBy(xpath = "//div[@class='subNavListContainer']//a[contains(text(), \"In Theaters\")]")
 	private WebElement inTheatres;
 
 	@FindBy(xpath = "//div[@class='list detail sub-list'][1]//div[@class='list_item odd'][1]//h4//a[1]")
